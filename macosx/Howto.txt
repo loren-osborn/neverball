@@ -1,4 +1,4 @@
-How to compile a universal binary of Neverball/Neverputt in OSX
+How to compile a universal binary of Neverball/Neverputt in macOS
 
 1) Retrieve the universal binary dependencies. 
 To be sure that you have universal binary frameworks installed use the following command :
@@ -7,11 +7,13 @@ file /Library/Frameworks/SDL.framework/Versions/Current/SDL
 
 which normally outputs : 
 
-/Library/Frameworks/SDL.framework/Versions/Current/SDL: Mach-O fat file with 2 architectures
+/Library/Frameworks/SDL.framework/Versions/Current/SDL: Mach-O fat file with 4 architectures
 /Library/Frameworks/SDL.framework/Versions/Current/SDL (for architecture i386): Mach-O dynamically linked shared library i386
 /Library/Frameworks/SDL.framework/Versions/Current/SDL (for architecture ppc):  Mach-O dynamically linked shared library ppc
+
+TODO: Add 64 bit intel and Apple Silicone builds
 	
-If it is not the previous output, retrieve SDL.framework here : http://www.libsdl.org/download-1.2.php (Runtime Library for MacOSX)
+If it is not the previous output, retrieve SDL.framework here : http://www.libsdl.org/download-1.2.php (Runtime Library for macOS)
 Open the dmg file and copy the SDL.framework in /Library/Frameworks.
 Do the same for:
 	- SDL_image	http://www.libsdl.org/projects/SDL_image/

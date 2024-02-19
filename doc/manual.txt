@@ -68,7 +68,7 @@ Neverball  creates a  directory in  which it  stores user  data files.
 These  files include  addons, screenshots,  high scores,  replays, and
 configurations.
 
-Under Unix,  Linux, and OSX  this directory is called  ".neverball" (a
+Under Unix,  Linux, and macOS  this directory is called  ".neverball" (a
 hidden folder) and is created in the user's home directory.
 
 Under Windows it is created in "Documents\My Games\Neverball".
